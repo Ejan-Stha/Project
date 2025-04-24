@@ -1,4 +1,4 @@
-# Week 1 | Computer Systems and Applications
+# EternalBlue Vulnerability Demonstration
 
  ![Knowledge Test](./images/Week-1_Task-1_Screenshot.PNG)
 
