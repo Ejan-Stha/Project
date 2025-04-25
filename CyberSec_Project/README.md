@@ -1,6 +1,6 @@
 # MS17-010 | EternalBlue Vulnerability Demonstration
 
- ![Knowledge Test](./images/Week-1_Task-1_Screenshot.PNG)
+ ![Knowledge Test](Project/CyberSec_Project/Screenshot/Week-1_Task-1_Screenshot.PNG)
 
 ## Task 3. View Your Computer Information
 
