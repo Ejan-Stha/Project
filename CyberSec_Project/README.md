@@ -1,6 +1,6 @@
 # MS17-010 | EternalBlue Vulnerability Demonstration
 
- ![Knowledge Test](CyberSec_Project/Screenshot/After_shutdown_command.PNG)
+ ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
 
 ## Task 3. View Your Computer Information
 
