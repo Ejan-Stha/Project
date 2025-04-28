@@ -1,5 +1,9 @@
 # MS17-010 | EternalBlue Vulnerability Demonstration
 
+**Disclaimer** 
+
+**This activity is intended for Ethical hacking and education purposes only. Unauthorised access or testing is illegal and unethical. Always follow laws and regulations.**
+
 ## Lab setup & Environment
 
 **Operating system:** Windows 10
