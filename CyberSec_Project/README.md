@@ -1,12 +1,17 @@
 # MS17-010 | EternalBlue Vulnerability Demonstration
 
 ## Lab setup & Environment
+
 **Operating system:** Windows 10
+
 **Virtualisation software:** Oracle virtual machine (version 7.1.0 r164728 (Qt6.5.3))
+
 **Download Oracle Virtual Machine:**
+
 https://www.oracle.com/au/virtualization/technologies/vm/downloads/virtualbox-downloads.html
 
 ## Virtual machines
+
 **Windows 7 (64 bits)**
 
 IP address: 192.168.0.141
