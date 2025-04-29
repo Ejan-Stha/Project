@@ -1,8 +1,12 @@
 # MS17-010 | EternalBlue Vulnerability Demonstration
 
+---
+
 **Disclaimer** 
 
 **This activity is intended for Ethical hacking and education purposes only. Unauthorised access or testing is illegal and unethical. Always follow laws and regulations.**
+
+---
 
 ## Lab setup & Environment
 
@@ -56,6 +60,8 @@ https://www.kali.org/get-kali/#kali-platforms
 
 **Service affected:** SMB v1 (Port 445)
 
+---
+
 ## Steps-by-steps Process
 ### Setup Oracle virtual box
 
@@ -81,6 +87,9 @@ ping 192.168.0.78
 https://localhost:8834
 
 ![start_nessusd](Screenshot/start_nessusd.PNG)
+
+
+![Normal_Scan](Screenshot/Normal_Scan.PNG)
  
 
 ### Vulnerability report
@@ -93,6 +102,7 @@ nmap 192.168.0.141
  
  ![nmap.PNG](Screenshot/nmap.PNG)
 
+---
 
 ## Exploitation
 
@@ -123,6 +133,7 @@ RPORT: 445
  
  ![meterpreter](Screenshot/meterpreter.PNG)
 
+---
  
 ## Post exploitation
 
@@ -131,6 +142,8 @@ RPORT: 445
 **Meterpreter > getuid = Displays the username that the Meterpreter session is running as.**
 
  ![Get_system_information](Screenshot/Get_system_information.PNG)
+
+ ---
 
 ### System Information
 
@@ -142,28 +155,36 @@ Meterpreter > run post/windows/manage/priv_migrate = get more privileged access
 
  ![privileged_access](Screenshot/privileged_access.PNG) 
 
+
 ### Screenshot command
  
  ![Screenshot_Command](Screenshot/Screenshot_Command.PNG)
+
  
 ### Going into Desktop
  
  ![windows_Remote_Desktop.](Screenshot/windows_Remote_Desktop.PNG)
+
  
 ### Creating folder
  
  ![creating_folder_remotely](Screenshot/creating_folder_remotely.PNG)
 
  
- ![creating_folder_remotely](Screenshot/creating_folder_remotely.PNG)
+ ![Successfull_creation_of_folder](Screenshot/Successfull_creation_of_folder.PNG)
  
 
 ### Shutdown command
  
+![Before_Shutdown](Screenshot/before_shutdown_command.PNG)
+
+
 ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
 
 
 ### END
+
+---
 
 ## For Defense
 
@@ -185,7 +206,7 @@ dism /online /norestart /disable-feature /featurename:SMB1Protocol
 
 **Use of antivirus and scheduled scans**
 
-
+---
 
 
 
