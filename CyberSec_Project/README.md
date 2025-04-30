@@ -62,10 +62,16 @@ https://www.kali.org/get-kali/#kali-platforms
 
 ---
 
+## Network Diagram
+
+![Network_diagram](Screenshot/Network_diagram.png)
+
+---
+
 ## Steps-by-steps Process
 ### Setup Oracle virtual box
 
-  ![oracle_virtual_box.PNG](Screenshot/oracle_virtual_box.PNG)
+  ![oracle_virtual_box](Screenshot/oracle_virtual_box.PNG)
 
 
 ### Command:
