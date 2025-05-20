@@ -7,10 +7,10 @@ Ventoy: https://www.ventoy.net/en/download.html
 BalenEthcer: https://etcher.balena.io/
 -	Insert USB and open balenEthcher
  
--	Select target as USB and upload the ventoy.iso file 
-  ![Network_diagram](Screenshot/Network_diagram.png)
+-	Select target as USB and upload the ventoy.iso file
 
-
+  
+  ![Open_BalenaEthcer](Images/Open_BalenaEthcer.png)
 
 
 -	Press Flash
