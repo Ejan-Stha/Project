@@ -8,7 +8,8 @@ BalenEthcer: https://etcher.balena.io/
 -	Insert USB and open balenEthcher
  
 -	Select target as USB and upload the ventoy.iso file 
- ![image](https://github.com/user-attachments/assets/7164cd13-60a8-4a4f-9c3d-2ace725a88df)
+  ![Network_diagram](Screenshot/Network_diagram.png)
+
 
 
 
